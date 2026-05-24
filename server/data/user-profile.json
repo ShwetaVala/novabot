@@ -1,0 +1,15 @@
+{
+  "name": "user",
+  "schedule": { "wake": "09:00", "sleep": "00:00" },
+  "priorities": ["study", "health", "work"],
+  "aiFocus": "chatbots",
+  "business": {
+    "name": "Soup Corner",
+    "openTomorrow": false
+  },
+  "health": {
+    "habits": ["weight loss", "meditation"],
+    "weightLossGoalKg": 40
+  },
+  "notes": "Building Nova chatbot. Soup Corner closed tomorrow — focus on AI + health + light business prep."
+}

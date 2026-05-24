@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova — Personal Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="brand">
+          <span class="logo">✦</span>
+          <div>
+            <h1>Nova</h1>
+            <p class="tagline">Your personal AI assistant</p>
+          </div>
+        </div>
+        <button id="clearBtn" class="btn-ghost" type="button">Clear chat</button>
+      </header>
+
+      <main id="messages" class="messages" aria-live="polite"></main>
+
+      <footer class="composer">
+        <form id="chatForm">
+          <textarea
+            id="messageInput"
+            rows="1"
+            placeholder="Ask Nova anything…"
+            autocomplete="off"
+          ></textarea>
+          <button id="sendBtn" class="btn-send" type="submit" aria-label="Send">
+            ↑
+          </button>
+        </form>
+        <p class="hint">Gemini free tier · ~20 msgs/session · Clear chat to reset</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
